@@ -213,9 +213,17 @@ form{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.do{
+    padding-left: 30%;
+}
+.sec{
+    padding-right: 100px;
+    align-items: center;
+    text-align: center;
+}
 /* contact */
 
-@media(max-width:768px){
+@media only screen and(max-width: 800px){
 *{
     margin: 0px;
     padding: 0px;
@@ -231,7 +239,7 @@ form{
     transition: 2s;
  }
  nav .fa{
-    display: flex;
+    display: block;
     color: brown;
     cursor: pointer;
     font-size: 28px;
@@ -262,20 +270,7 @@ nav ul{
         margin-top: 0cm;
         margin-bottom: 0cm;
     }
-    .img-div{
-        padding-left: 0cm;
-        padding-bottom: 0cm;
-       margin-top: 0cm;
-       margin-bottom: 0cm;
-       margin-left: 0cm;
-       margin-right: 0cm;
-    }
-    .img{
-      width: 490px;
-      height: 450px;
-      padding-right: 0cm;
-      margin-right: 0cm;
-    }
+    
     .color-div{
         padding-top: 0cm;
         padding-bottom: 0cm;
@@ -326,10 +321,11 @@ nav ul{
         font-size: 50px;
         text-align: center;
       }
+
 }
 
 
- @media(max-width:992px){
+ @media (max-width:992px){
     *{
         margin: 0px;
         padding: 0px;
